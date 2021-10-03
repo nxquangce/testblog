@@ -1,0 +1,31 @@
+---
+enable: true
+# topTitle: Research fields
+title: >
+  ## Research fields
+
+  We have a lot of experience in reseaching with many members who are working as postgraduate in reputed university around the world and very active and talented students.
+service:
+  - content: >
+      #### FPGA/VLSI
+
+      - AI Acclerator  
+
+      - FPGA-based network security  
+
+      - Computer Architecture: VLWI, RISC-V  
+
+      - FPGA-based solution: smart car parking
+    image: images/service/creative.svg
+  - content: >
+      #### Internet of Things
+
+      - Environment monitoring systems
+
+      - Automation control systems
+    image: images/service/branding.svg
+  - content: >
+      #### Network security
+
+      - AI-based Anomaly detection solution for SDN
+    image: images/service/creative.svg

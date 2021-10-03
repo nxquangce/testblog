@@ -1,0 +1,13 @@
+---
+enable: true
+topTitle1: Faculty of
+topTitle2: Science and Engineering, HCMUT
+content: >
+  # Computer Engineering Lab
+
+  Sharing is the key of development.
+buttonName: About us
+buttonURL: about
+image: images/hero/bg.png
+videoThumb: images/hero/video-thumb.png
+videoURL: https://www.youtube.com/watch?v=tvIpnOzihus

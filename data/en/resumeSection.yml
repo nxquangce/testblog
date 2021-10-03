@@ -1,0 +1,35 @@
+---
+enable: true
+topTitle: 
+title: >
+  ## Events
+
+  We often organize academic activities for our lab's members and students.
+tab1Name: Seminar
+tab2Name: Discussion
+tab1Target: education
+tab2Target: experience
+
+education:
+  - content: >
+      #### Hardware security
+
+      Dang Le, K18 student presents his bechelor's thesis topic.
+    time: 11-10-2021
+  - content: >
+      #### FPGA-based Convolution
+
+      A group of K19-20 students presents their scientific research project.
+    time: 17-10-2021
+
+experience:
+  - content: >
+      #### Zynq training session. 
+
+      Learn about workflow on Zynq development.
+    time: 20-10-2021
+  - content: >
+      #### CE club debut
+
+      Board of directors
+    time: 23-10-2021

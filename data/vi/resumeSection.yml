@@ -1,0 +1,35 @@
+---
+enable: true
+topTitle: 
+title: >
+  ## Sự kiện
+
+  Chúng tôi thường xuyên tổ chức các hoạt động học thuật trong cho các thành viên và các bạn sinh viên.
+tab1Name: Seminar
+tab2Name: Khác
+tab1Target: education
+tab2Target: experience
+
+education:
+  - content: >
+      #### Hardware security
+
+      Lê Đăng, sinh viên K18 thuyết trình về đề tài luận văn của mình.
+    time: 11-10-2021
+  - content: >
+      #### FPGA-based Convolution
+
+      Nhóm nghiên cứu khoa học K19-20 trình bày đề tài.
+    time: 17-10-2021
+
+experience:
+  - content: >
+      #### Zynq training session
+
+      Workflow cho phát triển ứng dụng trên nền tảng Zynq.
+    time: 20-10-2021
+  - content: >
+      #### Ra mắt câu lạc bộ CE
+
+      Ban chủ nhiệm câu lạc bộ
+    time: 23-10-2021

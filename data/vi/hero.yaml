@@ -1,0 +1,13 @@
+---
+enable: true
+topTitle1: Khoa Khoa học và Kỹ thuật Máy tính
+topTitle2: Trường Đại học Bách Khoa - ĐHQG-HCM
+content: >
+  # PTN Kỹ thuật Máy tính
+
+  Chia sẻ là chìa khóa của sự phát triển.
+buttonName: Về chúng tôi
+buttonURL: "../vi#about"
+image: images/hero/bg.png
+videoThumb: images/hero/video-thumb.png
+videoURL: https://www.youtube.com/watch?v=tvIpnOzihus

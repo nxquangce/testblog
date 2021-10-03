@@ -1,4 +1,4 @@
-baseURL = "https://github.com/nxquangce/testblog/"
+baseURL = "https://nxquangce.github.io/testblog/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true

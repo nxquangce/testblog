@@ -2,6 +2,9 @@
     position: relative;
     overflow: hidden;
     padding-bottom: 275px;
+    a {
+        text-decoration: none;
+    }
     &__background {
         position: absolute;
         top: 0;

@@ -1,4 +1,5 @@
-{{ with .Site.Data.portfolioSection }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.portfolioSection }}
 {{ if .enable }}
 <section class="section portfolio" id="portfolio">
   <div class="container">

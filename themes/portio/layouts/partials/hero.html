@@ -8,10 +8,10 @@
     </svg>
   </div>
   <div class="hero_footer-svg">
-    <img src={{ "images/hero/figure-svg.svg" | absURL }} alt="" />
+    <img src={{ "images/hero/figure-grey.png" | absURL }} alt="" />
   </div>
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row">
       <div class="col-lg-6">
         <div class="hero_content">
           <div class="hero_blob">
@@ -33,7 +33,7 @@
             {{ .content | markdownify }}
           </div>
           <a type="button" class="btn btn-lg btn-primary btn-zoom scroll"
-            href="{{ .buttonURL }}">{{ .buttonName }}</a>
+            href="{{ $.Site.BaseURL | relLangURL }}{{ .buttonURL }}">{{ .buttonName }}</a>
         </div>
       </div>
       <div class="col-lg-6">

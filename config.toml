@@ -1,5 +1,5 @@
-# baseURL = "https://nxquangce.github.io/testblog/"
-baseURL = "http://localhost:1313/testblog/"
+baseURL = "https://nxquangce.github.io/testblog/"
+# baseURL = "http://localhost:1313/testblog/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true

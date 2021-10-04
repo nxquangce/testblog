@@ -1,4 +1,5 @@
-baseURL = "https://nxquangce.github.io/testblog/"
+# baseURL = "https://nxquangce.github.io/testblog/"
+baseURL = "http://localhost:1313/testblog/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -46,20 +47,16 @@ theme = "portio"
             # Sitemap Menu
             [[languages.en.menu.sitemap]]
             name = "About us"
-            url = "about"
+            url = "#about"
             weight = 1
             [[languages.en.menu.sitemap]]
             name = "Home"
-            url = "#"
+            url = "#home"
             weight = 2
             [[languages.en.menu.sitemap]]
             name = "Privacy & Policy"
             url = "#"
             weight = 3
-            [[languages.en.menu.sitemap]]
-            name = "Latest Article"
-            url = "#"
-            weight = 4
 
         
             [languages.en.params]
@@ -144,20 +141,16 @@ theme = "portio"
             # Sitemap Menu
             [[languages.vi.menu.sitemap]]
             name = "Về chúng tôi"
-            url = "about"
+            url = "#about"
             weight = 1
             [[languages.vi.menu.sitemap]]
             name = "Trang chủ"
-            url = "#"
+            url = "#home"
             weight = 2
             [[languages.vi.menu.sitemap]]
             name = "Chính sách bảo mật"
             url = "#"
             weight = 3
-            [[languages.vi.menu.sitemap]]
-            name = "Bài viết mới nhất"
-            url = "#"
-            weight = 4
 
         
             [languages.vi.params]
@@ -190,3 +183,11 @@ theme = "portio"
             icon = "fa-github"
             url = "https://github.com"
             weight = 2
+
+#[markup]
+
+#[markup.goldmark]
+
+#[markup.goldmark.renderer]
+#hardWraps = false
+#unsafe = true

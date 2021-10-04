@@ -7,25 +7,32 @@ title: >
   We have a lot of experience in reseaching with many members who are working as postgraduate in reputed university around the world and very active and talented students.
 service:
   - content: >
-      #### FPGA/VLSI
+      #### [FPGA/VLSI](research/fpga)
 
       - AI Acclerator  
 
       - FPGA-based network security  
 
-      - Computer Architecture: VLWI, RISC-V  
+      - Computer Architecture
 
-      - FPGA-based solution: smart car parking
+      - FPGA-based solutions  
+
+      [. . . detail >>](research/fpga)
     image: images/service/creative.svg
+    link: research/fpga
   - content: >
-      #### Internet of Things
+      #### [Internet of Things](research/iot)
 
       - Environment monitoring systems
 
-      - Automation control systems
+      - Automation control systems  
+
+      [. . . detail >>](research/iot)
     image: images/service/branding.svg
   - content: >
-      #### Network security
+      #### [Embedded System](research/fpga)
 
-      - AI-based Anomaly detection solution for SDN
-    image: images/service/creative.svg
+      - AI-based Anomaly detection solution for SDN  
+
+      [. . . detail >>](research/embedded)
+    image: images/service/ui-ux.svg

@@ -7,25 +7,32 @@ title: >
   Chúng tôi có nhiều kinh nghiệm trong nghiên cứu với đội ngũ gồm nhiều thành viên hiện đang là nghiên cứu sinh tại các trường đại học danh tiếng trên thế giới cùng các bạn sinh viên năng động và đầy tài năng.
 service:
   - content: >
-      #### FPGA/VLSI
+      #### [FPGA/VLSI](research/fpga)
 
       - Tăng tốc giải thuật trí tuệ nhân tạo
 
       - An ninh mạng trên phần cứng FPGA
 
-      - Kiến trúc máy tính: VLWI, RISC-V  
+      - Kiến trúc máy tính
 
-      - Giải pháp dựa trên FPGA: Bãi đỗ xe thông minh,...
+      - Giải pháp dựa trên FPGA
+
+      [. . . chi tiết >>](research/fpga)
     image: images/service/creative.svg
+    link: research/fpga
   - content: >
-      #### Internet of Things
+      #### [Internet of Things](research/iot)
 
       - Hệ thống quan trắc môi trường
 
-      - Hệ thống điều khiển tự động
+      - Hệ thống điều khiển tự động  
+
+      [. . . chi tiết >>](research/iot)
     image: images/service/branding.svg
   - content: >
-      #### An ninh mạng
+      #### [Hệ thống nhúng](research/embedded)
 
-      - Giải pháp phát hiện xâm nhập bất thường dựa trên AI cho mạng SDN
-    image: images/service/creative.svg
+      - Hệ thống điều khiển tự động  
+
+      [. . . chi tiết >>](research/embedded)
+    image: images/service/ui-ux.svg

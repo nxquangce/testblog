@@ -14,8 +14,8 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR%20GOOGLE%20ANALYTICS%20CODE"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','YOUR GOOGLE ANALYTICS CODE')</script>
 </head>
-<body>
-<nav class="navbar navbar-expand-lg fixed-top">
+<body data-spy=scroll data-target=#navbar data-offset=500>
+<nav id=navbar class="navbar navbar-expand-lg fixed-top">
 <div class=container>
 <a href=/testblog/en class=navbar-brand>
 <img src=https://nxquangce.github.io/testblog/images/site-navigation/logo.png alt=site-logo>
@@ -26,39 +26,39 @@
 <span class=navbar-toggler-icon></span>
 </button>
 <div class="collapse navbar-collapse justify-content-between" id=navbarCollapse>
-<ul class="nav navbar-nav main-navigation my-0 mx-auto">
+<ul class="nav navbar-nav nav-pills main-navigation my-0 mx-auto">
 <li class=nav-item>
-<a href=/testblog/en#home class="nav-link text-dark text-sm-center p-2">Home</a>
+<a href=/testblog/en/#home class="nav-link text-sm-center p-2">Home</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/en#about class="nav-link text-dark text-sm-center p-2">About</a>
+<a href=/testblog/en/#about class="nav-link text-sm-center p-2">About</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/en#research class="nav-link text-dark text-sm-center p-2">Research</a>
+<a href=/testblog/en/#research class="nav-link text-sm-center p-2">Research</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/en#event class="nav-link text-dark text-sm-center p-2">Event</a>
+<a href=/testblog/en/#event class="nav-link text-sm-center p-2">Event</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/en#publication class="nav-link text-dark text-sm-center p-2">Publication</a>
+<a href=/testblog/en/research/publication class="nav-link text-sm-center p-2">Publication</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/en#blog class="nav-link text-dark text-sm-center p-2">Blog</a>
+<a href=/testblog/en/#blog class="nav-link text-sm-center p-2">Blog</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/en#contact class="nav-link text-dark text-sm-center p-2">Contact</a>
+<a href=/testblog/en/#contact class="nav-link text-sm-center p-2">Contact</a>
 </li>
 </ul>
 <div class=navbar-nav>
+<ul class=nav-list>
+<a href=https://nxquangce.github.io/testblog/vi/contact/ class="btn btn-primary btn-zoom hire_button">Tiếng Việt</a>
+</ul>
 </div>
 </div>
 </div>
 </nav>
 <div id=content>
 <header class=breadCrumb>
-<div class=svg-img>
-<img src=https://nxquangce.github.io/testblog/images/hero/figure-svg.svg alt=bg>
-</div>
 <div class=animate-shape><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600"><defs><linearGradient id="d" x1=".929" y1=".111" x2=".263" y2=".935" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f1f6f9"/><stop offset="1" stop-color="#f1f6f9" stop-opacity="0"/></linearGradient></defs><g data-name="blob-shape (3)"><path class="blob" fill="url(#d)" d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z"/></g></svg>
 </div>
 <div class=animate-pattern>
@@ -80,6 +80,11 @@
 </header>
 <section class="section contact__info">
 <div class=container>
+<div class="row justify-content-center">
+<div class=col-lg-8>
+<p style=text-align:justify> Do not hesitate to contact us using the information below. We are happy to hear any comments about the research team, this website, and documents published by the research team. Thank you very much. </p>
+</div>
+</div>
 <div class=row>
 <div class=col-lg-4>
 <div class=contact__info_item>
@@ -90,7 +95,7 @@
 <img src=https://nxquangce.github.io/testblog/images/contact/location.svg alt=location>
 </div>
 </div>
-<h4>Office Address</h4>
+<h4>Address</h4>
 <p>
 201C5, Ho Chi Minh City University of Technology, 268 Ly Thuong Kiet, Ward 14, District 10, Ho Chi Mi City
 </p>
@@ -105,9 +110,8 @@
 <img src=https://nxquangce.github.io/testblog/images/contact/phone.svg alt=phone>
 </div>
 </div>
-<h4>Phone & Email</h4>
-<p><br>
-<a href=mailto:celab.hcmut@gmail.com>celab.hcmut@gmail.com</a>
+<h4>Email</h4>
+<p><a href=mailto:celab.hcmut@gmail.com>celab.hcmut@gmail.com</a><br>
 </p>
 </div>
 </div>
@@ -120,49 +124,10 @@
 <img src=https://nxquangce.github.io/testblog/images/contact/time.svg alt=time>
 </div>
 </div>
-<h4>Working Hours</h4>
+<h4>Working hours</h4>
 <p>
+9:00 to 17:00, Monday to Friday
 </p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class=contact-form>
-<div class=container>
-<div class=row>
-<div class=col-lg-6>
-<div class=contact-form-title>
-<h3>Contact Form</h3>
-</div>
-<div class=contact-form-input>
-<form id=contact-form action=YOUR%20FORMSPREE%20URL method=post>
-<div class=form-row>
-<div class="form-group col-md-6 pr-3">
-<input type=text class=form-control name=Name placeholder=Name required>
-</div>
-<div class="form-group col-md-6">
-<input type=email class=form-control name=email placeholder=Email required>
-</div>
-</div>
-<div class=form-group>
-<textarea class=form-control id=message rows=6 name=message placeholder=Message></textarea>
-</div>
-<div class=form-group>
-<div class="form-check small">
-<input type=checkbox class=form-check-input name=agreement id=aggrement required>
-<label class=form-check-label for=aggrement>
-I agree that my submitted data is being collected and
-stored.</label>
-</div>
-</div>
-<button type=submit class="btn btn-primary btn-zoom" id=contact-form-button>Send Message</button>
-<p id=contact-form-status class=mt-3></p>
-</form>
-</div>
-</div>
-<div class=col-lg-6>
-<div id=map data-lat=23.7783741 data-long=90.3746808 data-pin=https://nxquangce.github.io/testblog/images/pin.png>
 </div>
 </div>
 </div>
@@ -183,9 +148,10 @@ stored.</label>
 <div class="text-light footer__widget_sitemap mb-5">
 <h4 class=base-font>Sitemap</h4>
 <ul class="unstyle-list small">
-<li class=mb-2><a class="text-light scroll" href=/testblog/en#about>About us</a></li>
-<li class=mb-2><a class="text-light scroll" href=/testblog/en#home>Home</a></li>
-<li class=mb-2><a class="text-light scroll" href=/testblog/en#>Privacy & Policy</a></li>
+<li class=mb-2><a class="text-light scroll" href=/testblog/en/#home>Home</a></li>
+<li class=mb-2><a class="text-light scroll" href=/testblog/en/research/publication>Publication</a></li>
+<li class=mb-2><a class="text-light scroll" href=/testblog/en/blog>Blog</a></li>
+<li class=mb-2><a class="text-light scroll" href=/testblog/en/contact>Contact</a></li>
 </ul>
 </div>
 </div>
@@ -221,7 +187,6 @@ stored.</label>
 </div>
 </div>
 </section>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR%20GOOGLE%20MAP%20API&libraries=geometry"></script>
 <script src=https://nxquangce.github.io/testblog/plugins/jQuery/jquery.min.js></script>
 <script src=https://nxquangce.github.io/testblog/plugins/bootstrap/bootstrap.min.js></script>
 <script src=https://nxquangce.github.io/testblog/plugins/slick/slick.min.js></script>

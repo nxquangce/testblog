@@ -14,8 +14,8 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR%20GOOGLE%20ANALYTICS%20CODE"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','YOUR GOOGLE ANALYTICS CODE')</script>
 </head>
-<body>
-<nav class="navbar navbar-expand-lg fixed-top">
+<body data-spy=scroll data-target=#navbar data-offset=500>
+<nav id=navbar class="navbar navbar-expand-lg fixed-top">
 <div class=container>
 <a href=/testblog/vi class=navbar-brand>
 <img src=https://nxquangce.github.io/testblog/images/site-navigation/logo.png alt=site-logo>
@@ -26,27 +26,27 @@
 <span class=navbar-toggler-icon></span>
 </button>
 <div class="collapse navbar-collapse justify-content-between" id=navbarCollapse>
-<ul class="nav navbar-nav main-navigation my-0 mx-auto">
+<ul class="nav navbar-nav nav-pills main-navigation my-0 mx-auto">
 <li class=nav-item>
-<a href=/testblog/vi#home class="nav-link text-dark text-sm-center p-2">Trang chủ</a>
+<a href=/testblog/vi/#home class="nav-link text-sm-center p-2">Trang chủ</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/vi#about class="nav-link text-dark text-sm-center p-2">Về chúng tôi</a>
+<a href=/testblog/vi/#about class="nav-link text-sm-center p-2">Về chúng tôi</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/vi#research class="nav-link text-dark text-sm-center p-2">Nghiên cứu</a>
+<a href=/testblog/vi/#research class="nav-link text-sm-center p-2">Nghiên cứu</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/vi#event class="nav-link text-dark text-sm-center p-2">Sự kiện</a>
+<a href=/testblog/vi/#event class="nav-link text-sm-center p-2">Sự kiện</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/vi#publication class="nav-link text-dark text-sm-center p-2">Ấn bản</a>
+<a href=/testblog/vi/research/publication class="nav-link text-sm-center p-2">Ấn phẩm khoa học</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/vi#blog class="nav-link text-dark text-sm-center p-2">Blog</a>
+<a href=/testblog/vi/#blog class="nav-link text-sm-center p-2">Blog</a>
 </li>
 <li class=nav-item>
-<a href=/testblog/vi#contact class="nav-link text-dark text-sm-center p-2">Liên hệ</a>
+<a href=/testblog/vi/#contact class="nav-link text-sm-center p-2">Liên hệ</a>
 </li>
 </ul>
 <div class=navbar-nav>
@@ -87,6 +87,32 @@
 <div class=col-lg-4>
 <div class=blog-page__item>
 <div class=blog-page__item-thumb>
+<img src=https://nxquangce.github.io/testblog/images/allpost/allPost-8.jpg alt=post-image>
+</div>
+<div class="blog-page__item-content bg-white">
+<span class=small>July 13, 2021</span>
+<h5 class=mb-0>
+<a class=text-dark href=https://nxquangce.github.io/testblog/en/blog/you-must-know-this-before-becoming-a-designer/>First seminar [EN]</a>
+</h5>
+</div>
+</div>
+</div>
+<div class=col-lg-4>
+<div class=blog-page__item>
+<div class=blog-page__item-thumb>
+<img src=https://nxquangce.github.io/testblog/images/allpost/allPost-6.jpg alt=post-image>
+</div>
+<div class="blog-page__item-content bg-white">
+<span class=small>September 13, 2020</span>
+<h5 class=mb-0>
+<a class=text-dark href=https://nxquangce.github.io/testblog/en/blog/markdown-formatting-demo/>Markdown Formatting Demo [EN]</a>
+</h5>
+</div>
+</div>
+</div>
+<div class=col-lg-4>
+<div class=blog-page__item>
+<div class=blog-page__item-thumb>
 <img src=https://nxquangce.github.io/testblog/images/allpost/allPost-7.jpg alt=post-image>
 </div>
 <div class="blog-page__item-content bg-white">
@@ -115,9 +141,10 @@
 <div class="text-light footer__widget_sitemap mb-5">
 <h4 class=base-font>Sitemap</h4>
 <ul class="unstyle-list small">
-<li class=mb-2><a class="text-light scroll" href=/testblog/vi#about>Về chúng tôi</a></li>
-<li class=mb-2><a class="text-light scroll" href=/testblog/vi#home>Trang chủ</a></li>
-<li class=mb-2><a class="text-light scroll" href=/testblog/vi#>Chính sách bảo mật</a></li>
+<li class=mb-2><a class="text-light scroll" href=/testblog/vi/#home>Trang chủ</a></li>
+<li class=mb-2><a class="text-light scroll" href=/testblog/vi/research/publication>Ấn phẩm khoa học</a></li>
+<li class=mb-2><a class="text-light scroll" href=/testblog/vi/blog>Blog</a></li>
+<li class=mb-2><a class="text-light scroll" href=/testblog/vi/contact>Liên hệ</a></li>
 </ul>
 </div>
 </div>
@@ -153,7 +180,6 @@
 </div>
 </div>
 </section>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR%20GOOGLE%20MAP%20API&libraries=geometry"></script>
 <script src=https://nxquangce.github.io/testblog/plugins/jQuery/jquery.min.js></script>
 <script src=https://nxquangce.github.io/testblog/plugins/bootstrap/bootstrap.min.js></script>
 <script src=https://nxquangce.github.io/testblog/plugins/slick/slick.min.js></script>

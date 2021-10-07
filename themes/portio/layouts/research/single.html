@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="section case-details">
+<section class="section case-details" id="{{ .Params.id }}">
   <div class="svg-img">
     <img src="{{ "images/hero/figure-grey.png" | absURL }}" width="60%" alt="" />
   </div>
@@ -28,7 +28,9 @@
           <h1>{{ .Title }}</h1>
         </div>
         <div class="case-details-thumb mb-5">
+            {{ if .Params.imageUrl}}
             <img src={{ .Params.imageUrl | absURL }} alt="head-bg" />
+            {{ end }}
         </div>
         <p>
           {{ .Params.shortDescription }}

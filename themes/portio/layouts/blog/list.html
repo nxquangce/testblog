@@ -39,7 +39,11 @@
 <section class="section blog-page">
 	<div class="container">
 		<div class="row">
-			{{ range .Paginator.Pages }}
+            {{ $pages := $.Site.RegularPages }}
+            {{ range $.Site.Home.Translations }}
+            {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+            {{ end }}
+			{{ range (where $pages "Type" "==" "blog") }}
 			<div class="col-lg-4">
 				<div class="blog-page__item">
 					<div class="blog-page__item-thumb">

@@ -127,6 +127,7 @@
         &_social {
             ul {
                 float: right;
+                font-size: 40px;
                 @include desktop {
                     margin: 20px auto 0;
                     float: none;

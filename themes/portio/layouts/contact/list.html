@@ -1,9 +1,6 @@
 {{ define "main" }}
 
 <header class="breadCrumb">
-  <div class="svg-img">
-    <img src="{{ "images/hero/figure-svg.svg" | absURL }}" alt="bg">
-  </div>
   <div class="animate-shape">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
       <defs>
@@ -39,6 +36,11 @@
 {{ $address := .Site.Params.address }}
 <section class="section contact__info">
   <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <p style="text-align: justify;"> {{ .Params.message }} </p>
+        </div>
+    </div>
     <div class="row">
       <div class="col-lg-4">
         <div class="contact__info_item">
@@ -54,7 +56,7 @@
               <img src="{{ "images/contact/location.svg" | absURL }}" alt="location" />
             </div>
           </div>
-          <h4>Office Address</h4>
+          <h4>{{ .Params.addressTitle }}</h4>
           <p>
             {{ $address.address }}
           </p>
@@ -74,9 +76,9 @@
               <img src="{{ "images/contact/phone.svg" | absURL }}" alt="phone" />
             </div>
           </div>
-          <h4>Phone & Email</h4>
-          <p>{{ $address.phone }}<br>
-            <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
+          <h4>{{ .Params.emailTitle }}</h4>
+          <p><a href="mailto:{{ $address.email }}">{{ $address.email }}</a><br>
+            {{ $address.phone }}
           </p>
 
         </div>
@@ -95,7 +97,7 @@
               <img src="{{ "images/contact/time.svg" | absURL }}" alt="time" />
             </div>
           </div>
-          <h4>Working Hours</h4>
+          <h4>{{ .Params.workingHoursTitle }}</h4>
           <p>
             {{ $address.openingHours }}
           </p>
@@ -105,7 +107,7 @@
   </div>
 </section>
 
-<section class="contact-form">
+<!-- <section class="contact-form">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -142,7 +144,7 @@
             <p id="contact-form-status" class="mt-3"></p>
           </form>
 
-          <!-- <form>
+          <form>
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputEmail4">Email</label>
@@ -172,7 +174,7 @@
               </div>
             </div>
             <button type="submit" class="btn btn-primary">Sign in</button>
-          </form> -->
+          </form>
 
 
 
@@ -185,6 +187,6 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 {{ end }}

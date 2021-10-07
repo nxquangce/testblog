@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top">
   <div class="container">
     <a href="{{ .Site.BaseURL | relLangURL }}" class="navbar-brand">
       <img src="{{ .Site.Params.logo | absURL }}" alt="site-logo">
@@ -10,12 +10,22 @@
     </button>
 
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+      <ul class="nav navbar-nav nav-pills main-navigation my-0 mx-auto">
         {{ $menu := .Site.Menus.main }}
+        {{ $currentNode := . }}
+        {{- $lastUrlElement := print "/" (index (last 2 (split (delimit (split $currentNode ".") "." "/") "/")) 0) -}}
+
         {{ range $index, $element := $menu }}
         <li class="nav-item">
-          <a href="{{ $.Site.BaseURL | relLangURL }}{{ .URL }}"
-            class="nav-link text-dark text-sm-center p-2 {{ if $.IsHome }}scroll{{ end }}">{{ .Name }}</a>
+          {{ if $.IsHome }}
+          <a href="{{ .URL }}"
+            class="nav-link text-sm-center p-2 scroll">{{ .Name }}</a>
+          {{ else }}
+          <a href="{{ $.Site.BaseURL | relLangURL }}/{{ .URL }}"
+            class="nav-link text-sm-center p-2 
+                {{if and (or (eq ($lastUrlElement|lower) ("/publication")) (eq ($lastUrlElement|lower) ("/publication.vi")))
+                         (eq (.URL) ("research/publication")) }}active{{end}}">{{ .Name }}</a>
+          {{ end }}
         </li>
         {{ end }}
       </ul>

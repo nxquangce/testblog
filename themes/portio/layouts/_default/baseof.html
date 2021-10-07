@@ -2,7 +2,7 @@
 <html>
 {{ partial "head.html" . }}
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="500">
   {{ partial "navbar.html" . }}
   <div id="content">
     {{ block "main" . }}{{ end }}

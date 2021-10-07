@@ -67,4 +67,18 @@
             }
         }
     }
+
+    .nav-pills {
+        a {
+            color: #000000;
+            &:hover {
+                color: $primary !important;
+            }
+        }
+        .active{
+            color: $primary;
+            font-weight: 900;
+            background-color: transparent;
+        }
+    }
 }

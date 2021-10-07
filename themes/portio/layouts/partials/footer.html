@@ -45,7 +45,7 @@
 					<ul class="unstyle-list small">
 						{{ $sitemap := .Site.Menus.sitemap }}
 						{{ range $sitemap }}
-						<li class="mb-2"><a class="text-light scroll" href="{{ $.Site.BaseURL | relLangURL}}{{ .URL }}">{{ .Name }}</a></li>
+						<li class="mb-2"><a class="text-light scroll" href="{{ $.Site.BaseURL | relLangURL}}/{{ .URL }}">{{ .Name }}</a></li>
 						{{ end }}
 					</ul>
 				</div>
@@ -87,7 +87,7 @@
 		</div>
 	</div>
 </section>
-<script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.map.APIkey }}&libraries=geometry"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.map.APIkey }}&libraries=geometry"></script> -->
 <script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}"></script>
 <script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
 <script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>

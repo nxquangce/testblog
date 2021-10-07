@@ -33,7 +33,7 @@ theme = "portio"
             weight = 4
             [[languages.en.menu.main]]
             name = "Publication"
-            url = "#publication"
+            url = "research/publication"
             weight = 5
             [[languages.en.menu.main]]
             name = "Blog"
@@ -46,17 +46,21 @@ theme = "portio"
 
             # Sitemap Menu
             [[languages.en.menu.sitemap]]
-            name = "About us"
-            url = "#about"
-            weight = 1
-            [[languages.en.menu.sitemap]]
             name = "Home"
             url = "#home"
+            weight = 1
+            [[languages.en.menu.sitemap]]
+            name = "Publication"
+            url = "research/publication"
             weight = 2
             [[languages.en.menu.sitemap]]
-            name = "Privacy & Policy"
-            url = "#"
+            name = "Blog"
+            url = "blog"
             weight = 3
+            [[languages.en.menu.sitemap]]
+            name = "Contact"
+            url = "contact"
+            weight = 4
 
         
             [languages.en.params]
@@ -71,7 +75,7 @@ theme = "portio"
             [languages.en.params.address]
             address = "201C5, Ho Chi Minh City University of Technology, 268 Ly Thuong Kiet, Ward 14, District 10, Ho Chi Mi City"
             email = "celab.hcmut@gmail.com"
-            #openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
+            openingHours = "9:00 to 17:00, Monday to Friday"
             #phone = "+(448) 833 5272 332"
 
             [languages.en.params.map]
@@ -126,8 +130,8 @@ theme = "portio"
             url = "#event"
             weight = 4
             [[languages.vi.menu.main]]
-            name = "Ấn bản"
-            url = "#publication"
+            name = "Ấn phẩm khoa học"
+            url = "research/publication"
             weight = 5
             [[languages.vi.menu.main]]
             name = "Blog"
@@ -140,17 +144,21 @@ theme = "portio"
 
             # Sitemap Menu
             [[languages.vi.menu.sitemap]]
-            name = "Về chúng tôi"
-            url = "#about"
-            weight = 1
-            [[languages.vi.menu.sitemap]]
             name = "Trang chủ"
             url = "#home"
+            weight = 1
+            [[languages.vi.menu.sitemap]]
+            name = "Ấn phẩm khoa học"
+            url = "research/publication"
             weight = 2
             [[languages.vi.menu.sitemap]]
-            name = "Chính sách bảo mật"
-            url = "#"
+            name = "Blog"
+            url = "blog"
             weight = 3
+            [[languages.vi.menu.sitemap]]
+            name = "Liên hệ"
+            url = "contact"
+            weight = 4
 
         
             [languages.vi.params]
@@ -165,7 +173,7 @@ theme = "portio"
             [languages.vi.params.address]
             address = "201C5, Trường Đại học Bách Khoa - ĐHQG-HCM, 268 Lý Thường Kiệt, phường 14, quận 10, TP. Hồ Chí Minh"
             email = "celab.hcmut@gmail.com"
-            #openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
+            openingHours = "9:00 đến 17:00 từ Thứ Hai đến Thứ Sáu"
             #phone = "+(448) 833 5272 332"
 
             [languages.vi.params.map]

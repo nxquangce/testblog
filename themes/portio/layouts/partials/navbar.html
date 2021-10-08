@@ -32,7 +32,7 @@
       <div class="navbar-nav">
         <!-- <a href="{{ "contact" | absURL }}" class="btn btn-primary btn-zoom hire_button">VI</a> -->
         {{ if .IsTranslated }}
-        <ul class="nav-list">
+        <ul>
             {{ range .Translations }}
                 <a href="{{ .Permalink }}" class="btn btn-primary btn-zoom hire_button">{{ .Language.LanguageName }}</a>
             {{ end}}

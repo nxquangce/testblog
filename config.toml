@@ -41,7 +41,7 @@ theme = "portio"
             weight = 6
             [[languages.en.menu.main]]
             name = "Contact"
-            url = "#contact"
+            url = "contact"
             weight = 7
 
             # Sitemap Menu
@@ -139,7 +139,7 @@ theme = "portio"
             weight = 6
             [[languages.vi.menu.main]]
             name = "Liên hệ"
-            url = "#contact"
+            url = "contact"
             weight = 7
 
             # Sitemap Menu

@@ -32,7 +32,7 @@ service:
       [. . . detail >>](research/iot)
     image: images/service/branding.svg
   - content: >
-      #### [Embedded System](research/fpga)
+      #### [Embedded System](research/embedded)
 
       - Automation control systems  
 

@@ -12,24 +12,21 @@ tab2Target: experience
 
 education:
   - content: >
-      #### Hardware security
+      #### FPGA-based Hardware security for RISC-V processors
 
-      Dang Le, K18 student presents his bechelor's thesis topic.
-    time: 11-10-2021
+      + Le Khac Minh Dang, K18 student (honor program), presents his bachelor's thesis topic about FPGA-based Hardware security for RISC-V processors.  
+
+      + The seminar is going to be online only.  
+
+      + **Register for the webinar at [here](https://forms.gle/j4MLxG3zNZGGusoJ7).**
+    time: 14:00, 15-10-2021 (GMT+7)
   - content: >
-      #### FPGA-based Convolution
+      #### ANN-based INDS on FPGA for IoTs
 
-      A group of K19-20 students presents their scientific research project.
-    time: 17-10-2021
+      Mr. Ngo Duc Minh, postgraduate at University College Cork - Ireland, will report his paper's works.
+    time: inform later
 
 experience:
   - content: >
-      #### Zynq training session. 
-
-      Learn about workflow on Zynq development.
-    time: 20-10-2021
-  - content: >
-      #### CE club debut
-
-      Board of directors
-    time: 23-10-2021
+      There has not been any upcoming 'other' event yet.
+    time: No event!

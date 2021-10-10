@@ -67,19 +67,19 @@ $(document).ready(function () {
   });
 
   // Smooth scrolling
-  var scrollLink = $("a");
-  scrollLink.click(function (e) {
-    let elem = $(this.hash);
-    if (elem.length) {
-      e.preventDefault();
-      $("body,html").animate(
-        {
-          scrollTop: elem.offset().top,
-        },
-        1000
-      );
-    }
-  });
+//   var scrollLink = $(".scroll");
+//   scrollLink.click(function (e) {
+//     let elem = $(this.hash);
+//     if (elem.length) {
+//       e.preventDefault();
+//       $("body,html").animate(
+//         {
+//           scrollTop: elem.offset().top,
+//         },
+//         1000
+//       );
+//     }
+//   });
 
   $(".navbar-nav>li>a").on("click", function () {
     $(".navbar-collapse").collapse("hide");

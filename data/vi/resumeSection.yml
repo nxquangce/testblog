@@ -12,9 +12,13 @@ tab2Target: experience
 
 education:
   - content: >
-      #### Hardware security
+      #### FPGA-based Hardware security for RISC-V processor
 
-      Lê Đăng, sinh viên K18 thuyết trình về đề tài luận văn của mình.
+      + Lê Khắc Minh Đăng, sinh viên KSTN K18, thuyết trình về đề tài luận văn của mình về vấn đề bảo mật phần cứng trên các vi xử lí RISC-V.  
+
+      + Buổi hội thảo sẽ diễn ra trực tuyến.  
+
+      + **Đăng ký tham dự hội thảo tại [đây](https://forms.gle/j4MLxG3zNZGGusoJ7).**
     time: 11-10-2021
   - content: >
       #### FPGA-based Convolution
@@ -24,12 +28,6 @@ education:
 
 experience:
   - content: >
-      #### Zynq training session
+      Hiện chưa có sự kiện 'khác' nào sắp diễn ra.
+    time: Không có sự kiện.
 
-      Workflow cho phát triển ứng dụng trên nền tảng Zynq.
-    time: 20-10-2021
-  - content: >
-      #### Ra mắt câu lạc bộ CE
-
-      Ban chủ nhiệm câu lạc bộ
-    time: 23-10-2021

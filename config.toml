@@ -74,7 +74,7 @@ theme = "portio"
 
             [languages.en.params.address]
             address = "201C5, Ho Chi Minh City University of Technology, 268 Ly Thuong Kiet, Ward 14, District 10, Ho Chi Minh City"
-            email = "celab.hcmut@gmail.com"
+            email = "contact.celab@gmail.com"
             openingHours = "9:00 to 17:00, Monday to Friday"
             #phone = "+(448) 833 5272 332"
 
@@ -91,7 +91,7 @@ theme = "portio"
             weight = 1
             [[languages.en.params.social]]
             icon = "fa-github"
-            url = "https://github.com"
+            url = "https://github.com/celab-hcmut"
             weight = 2
             # [[params.social]]
             # icon = "fa-linkedin-square"
@@ -172,7 +172,7 @@ theme = "portio"
 
             [languages.vi.params.address]
             address = "201C5, Trường Đại học Bách Khoa - ĐHQG-HCM, 268 Lý Thường Kiệt, phường 14, quận 10, TP. Hồ Chí Minh"
-            email = "celab.hcmut@gmail.com"
+            email = "contact.celab@gmail.com"
             openingHours = "9:00 đến 17:00 từ Thứ Hai đến Thứ Sáu"
             #phone = "+(448) 833 5272 332"
 
@@ -189,7 +189,7 @@ theme = "portio"
             weight = 1
             [[languages.vi.params.social]]
             icon = "fa-github"
-            url = "https://github.com"
+            url = "https://github.com/celab-hcmut"
             weight = 2
 
 #[markup]

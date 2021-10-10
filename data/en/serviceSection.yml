@@ -25,14 +25,18 @@ service:
 
       - Environment monitoring systems
 
-      - Automation control systems  
+      - Network security for IoTs  
+
+      - IoT-based applications  
 
       [. . . detail >>](research/iot)
     image: images/service/branding.svg
   - content: >
       #### [Embedded System](research/fpga)
 
-      - AI-based Anomaly detection solution for SDN  
+      - Automation control systems  
+
+      - Mobile sensor network for smart ctiy  
 
       [. . . detail >>](research/embedded)
     image: images/service/ui-ux.svg

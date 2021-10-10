@@ -15,7 +15,7 @@ service:
 
       - Kiến trúc máy tính
 
-      - Giải pháp dựa trên FPGA
+      - Giải pháp dựa trên FPGA  
 
       [. . . chi tiết >>](research/fpga)
     image: images/service/creative.svg
@@ -25,7 +25,9 @@ service:
 
       - Hệ thống quan trắc môi trường
 
-      - Hệ thống điều khiển tự động  
+      - An ninh mạng cho hệ thống IoT  
+
+      - Ứng dụng dựa trên hệ thống IoT  
 
       [. . . chi tiết >>](research/iot)
     image: images/service/branding.svg
@@ -33,6 +35,8 @@ service:
       #### [Hệ thống nhúng](research/embedded)
 
       - Hệ thống điều khiển tự động  
+
+      - Hệ thống cảm biến di động cho thành phố thông minh  
 
       [. . . chi tiết >>](research/embedded)
     image: images/service/ui-ux.svg

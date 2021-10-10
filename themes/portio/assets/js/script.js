@@ -67,7 +67,7 @@ $(document).ready(function () {
   });
 
   // Smooth scrolling
-  var scrollLink = $(".scroll");
+  var scrollLink = $("a");
   scrollLink.click(function (e) {
     let elem = $(this.hash);
     if (elem.length) {

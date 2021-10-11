@@ -7,6 +7,9 @@ paginate = 6
 title = "CELab"
 theme = "portio"
 
+[params]
+    imageUrl = "images/home_opengraph.png"
+
 [languages]
     [languages.en]
         languageName = 'English'

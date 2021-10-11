@@ -12,6 +12,8 @@
   <!-- <meta property="og:description" content="How much does culture influence creative thinking?" /> -->
   <meta property="og:image" content="{{ $.Site.BaseURL }}{{if .IsHome}}{{ $.Site.Params.imageUrl }}{{else}}{{ .Params.imageUrl }}{{end}}" />
   <meta property="og:image:secure_url" content="{{ $.Site.BaseURL }}{{if .IsHome}}{{ $.Site.Params.imageUrl }}{{else}}{{ .Params.imageUrl }}{{end}}"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
 
   {{ "<!-- Slick Carousel -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }}" />

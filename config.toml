@@ -8,7 +8,7 @@ title = "CELab"
 theme = "portio"
 
 [params]
-    imageUrl = "images/home_opengraph.png"
+    imageUrl = "images/home_opengraph.jpg"
 
 [languages]
     [languages.en]

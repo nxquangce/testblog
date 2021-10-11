@@ -11,6 +11,7 @@
   <meta property="og:title" content="{{ .Title }}" />
   <!-- <meta property="og:description" content="How much does culture influence creative thinking?" /> -->
   <meta property="og:image" content="{{ $.Site.BaseURL }}{{.Params.imageUrl}}" />
+  <meta property="og:image:secure_url" content="{{ $.Site.BaseURL }}{{.Params.imageUrl}}"/>
 
   {{ "<!-- Slick Carousel -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }}" />

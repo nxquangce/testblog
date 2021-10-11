@@ -10,8 +10,8 @@
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ .Title }}" />
   <!-- <meta property="og:description" content="How much does culture influence creative thinking?" /> -->
-  <meta property="og:image" content="{{ $.Site.BaseURL }}{{.Params.imageUrl}}" />
-  <meta property="og:image:secure_url" content="{{ $.Site.BaseURL }}{{.Params.imageUrl}}"/>
+  <meta property="og:image" content="{{ $.Site.BaseURL }}{{if .IsHome}}{{ $.Site.Params.imageUrl }}{{else}}{{ .Params.imageUrl }}{{end}}" />
+  <meta property="og:image:secure_url" content="{{ $.Site.BaseURL }}{{if .IsHome}}{{ $.Site.Params.imageUrl }}{{else}}{{ .Params.imageUrl }}{{end}}"/>
 
   {{ "<!-- Slick Carousel -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }}" />

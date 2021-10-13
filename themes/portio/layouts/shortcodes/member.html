@@ -4,7 +4,9 @@
             <img src="{{ .Get "image" | absURL}}" alt={{ .Get "name" }}>
         </div>
         <div class="nameBox">
-            <p class="name">{{if .Get "arank" }}{{ .Get "arank" }}<br/>{{ end }}{{ .Get "name" }}</p>
+            {{if .Get "link"}}<a href={{.Get "link"}}>{{ end }}
+                <p class="name">{{if .Get "arank" }}{{ .Get "arank" }}<br/>{{ end }}{{ .Get "name" }}</p>
+            {{if .Get "link"}}</a>{{ end }}
         </div>
     </div>
 </div>

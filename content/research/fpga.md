@@ -19,6 +19,6 @@ memberTitle: Members
 
 {{< member image="https://lh6.googleusercontent.com/iBpi2MMxDrozE0K9etVODt5BPPHP48GVleibj12Fn2ZpTJ38suTK2WUr03O0Ko8YChsspd-N-sClXbxAoD8kRFURKySn0fhpN6biBrcTrvJZoVGsghW9xJhF1UE96kc41A=w1280" name="Cuong Pham-Quoc" >}}
 {{< member image="images/research/user.png" name="Assoc. Prof Member 2 Auwehr Idjwi" >}}
-{{< member image="https://lh3.google.com/u/0/d/114Bpeu68dVz6F7PHTG0ESKXId_obMNTS=w1835-h981-iv1" name="Huynh Phuc Nghi" >}}
+{{< member image="https://lh3.googleusercontent.com/pw/AM-JKLWnH3ruHmifGnHOqB0y1RMPGpyvmJcjxSxpa1_mx8reD7HZW6t_3W9I6_Bu9i4DHqoc08jQU85XIkDZVOBRtEe7DoscbrxV2wD-GY5j2-aSzXExZ0vgCeI8q2YexXhwzKY8N55qg04rjbKrvcqzK5Y=w354-h472-no?authuser=0" name="Huynh Phuc Nghi" >}}
 {{< member image="images/research/user.png" name="Member 4 Oaurei Pase" >}}
 {{< member image="images/research/user.png" name="Member 5 Yuawehi Goiwe" >}}

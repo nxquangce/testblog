@@ -21,4 +21,5 @@ memberTitle: Members
 {{< member image="https://lh6.googleusercontent.com/qoxcFRyXAc3t9qgEvfGi1XWaEROX7zr5eppe0YYspHWShMdw-O84TBA4jzf526_q8ACnhUCZRmWtRA=w1871-h1008" name="Assoc. Prof Member 2 Auwehr Idjwi" >}}
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLWnH3ruHmifGnHOqB0y1RMPGpyvmJcjxSxpa1_mx8reD7HZW6t_3W9I6_Bu9i4DHqoc08jQU85XIkDZVOBRtEe7DoscbrxV2wD-GY5j2-aSzXExZ0vgCeI8q2YexXhwzKY8N55qg04rjbKrvcqzK5Y=w354-h472-no?authuser=0" name="Huynh Phuc Nghi" >}}
 {{< member image="https://lh6.googleusercontent.com/so5B8WiOEP1gyXdwfArktinXxaxnJSSkG3zaLK5deK9w8Pfz6y6GDNYHjbbYUq-_YRoo369_3q0GpA=w1871-h1008" name="Member 4 Oaurei Pase" >}}
-{{< member image="https://lh5.googleusercontent.com/4KASMDqFpVWEdSkuHhCBcVgtINcrQSY77L88r4QTQMTlUhrxnFSADQDTlhvD58mw43Zuclhv5tXmzw=w1443-h1008" name="Member 5 Yuawehi Goiwe" >}}
+{{< member image="https://lh6.googleusercontent.com/14VqqO0NGr4ufVMzzlkLZ3Woxatw9upc6HgqmF3Dc-5A3jZIN7ozkUSz6eT_0FzkIPi9tt00Gpz6zg=w1871-h1008" name="Bach Gia Bao" >}}
+{{< member image="https://lh3.googleusercontent.com/pw/AM-JKLWWV7J9JykRnMjO7XVMjOlmVso--CuOlYZfA0yBXp3YCLb_8YiZpkb1fE3fTs8Ec5ngBkIHJJ_hJgBXs69QsO3j5g3gviB2jpdZr1Ua3iQjkLZBpPy3a1bHW7TX_268WcPBCNGWgjnr2ZwKMJgJZWs=s512-no?authuser=0" name="Test gg photo" >}}

@@ -23,7 +23,7 @@ memberTitle: Thành viên
 ### Sinh viên
 {{< member image="images/research/user.png" name="Trần Hoàng Quốc Bảo" >}}
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLWnH3ruHmifGnHOqB0y1RMPGpyvmJcjxSxpa1_mx8reD7HZW6t_3W9I6_Bu9i4DHqoc08jQU85XIkDZVOBRtEe7DoscbrxV2wD-GY5j2-aSzXExZ0vgCeI8q2YexXhwzKY8N55qg04rjbKrvcqzK5Y=w354-h472-no?authuser=0" name="Huỳnh Phúc Nghị" >}}
-{{< member image="https://lh3.googleusercontent.com/pw/AM-JKLW3E8MnVW-tWU3sI32aLAo4gnbEebhYp2lY4EqJ3ri8JTfRDa4lnUDdH4ys72AGO2Y6qvNDUQbFxny4AeRprldPD1jzSbaui1OlEIWoyCzBsQZ22_8jMJQQkMAqge7K8LEvuUF8JaNRtxTFd_ACH5Y=w737-h982-no?authuser=0" name="Nguyen Xuan Quang" >}}
+{{< member image="https://lh3.googleusercontent.com/pw/AM-JKLW3E8MnVW-tWU3sI32aLAo4gnbEebhYp2lY4EqJ3ri8JTfRDa4lnUDdH4ys72AGO2Y6qvNDUQbFxny4AeRprldPD1jzSbaui1OlEIWoyCzBsQZ22_8jMJQQkMAqge7K8LEvuUF8JaNRtxTFd_ACH5Y=w737-h982-no?authuser=0" name="Nguyễn Xuân Quang" >}}
 {{< member image="images/research/user.png" name="Lê Khắc Minh Đăng" >}}
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLVz24ZqQeo2RgZOdeUPhRmNbmsguWv4-PM1NKF-7VnJCDuhVmJeGtj0Pfdst4MX7tfCQnBBaYK5lHapG0uUWmWxY-4NlQae2V80SgXktaiZXjBq8SqMiLGa_MZjJcPsYzYq0IK7SDdjP3BtcDN-36w=w384-h512-no?authuser=0" name="Bạch Gia Bảo" >}}
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLUw6u8P2Cp2XHo1R7JM_nKv1HGz6-V-L5tUyvk5Jf1Da6xYJFd-F9n857HN-4lzoRkyFGHk_Jnaojd0_gEx0ANtva1rxnHenLXy2j5NpWcoBvc_K7PV_9LEGHUUxqyNXDW18Ry3S68ylUujqxlxTww=w737-h983-no?authuser=0" name="Nguyễn Đình Minh" >}}

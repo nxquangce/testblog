@@ -1,7 +1,7 @@
 <div class="member col col-12 col-lg-3 col-sm-6">
     <div class="member__item">
         <div class="member__item-thumb">
-            <img src="{{ .Get "image" | absURL}}" alt="post-image">
+            <img src="{{ .Get "image" | absURL}}" alt={{ .Get "name" }}>
         </div>
         <div class="member__item-content bg-white">
             <h5 class="mb-0">

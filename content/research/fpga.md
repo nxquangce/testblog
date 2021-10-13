@@ -17,8 +17,8 @@ memberTitle: Members
 
 ### Members    
 
-{{< member image="images/research/user.png" name="Assoc. Prof Member 1 Naskgrhi Sudai" >}}
+{{< member image="https://lh6.googleusercontent.com/iBpi2MMxDrozE0K9etVODt5BPPHP48GVleibj12Fn2ZpTJ38suTK2WUr03O0Ko8YChsspd-N-sClXbxAoD8kRFURKySn0fhpN6biBrcTrvJZoVGsghW9xJhF1UE96kc41A=w1280" name="Cuong Pham-Quoc" >}}
 {{< member image="images/research/user.png" name="Assoc. Prof Member 2 Auwehr Idjwi" >}}
-{{< member image="images/research/user.png" name="MS Member 3 Ylaeao Peqasu" >}}
+{{< member image="https://lh3.google.com/u/0/d/114Bpeu68dVz6F7PHTG0ESKXId_obMNTS=w1835-h981-iv1" name="Huynh Phuc Nghi" >}}
 {{< member image="images/research/user.png" name="Member 4 Oaurei Pase" >}}
 {{< member image="images/research/user.png" name="Member 5 Yuawehi Goiwe" >}}

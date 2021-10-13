@@ -3,10 +3,8 @@
         <div class="member__item-thumb">
             <img src="{{ .Get "image" | absURL}}" alt={{ .Get "name" }}>
         </div>
-        <div class="member__item-content bg-white">
-            <h5 class="mb-0">
-                <p>{{ .Get "name" }}</p>
-            </h5>
+        <div class="nameBox">
+            <p class="name">{{if .Get "arank" }}{{ .Get "arank" }}<br/>{{ end }}{{ .Get "name" }}</p>
         </div>
     </div>
 </div>
